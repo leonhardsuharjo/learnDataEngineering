@@ -12,4 +12,9 @@ Total courses taken
    1. Core objective: Introduce the architecture that connects pipelines (data ingestion/transformation) with ontology (semantic modeling) and AI integration through natural language interfaces
 
 Next projected courses =
-1. 
+1. Build ur first app 
+2. data engineering 
+
+Current latest status = 
+- created a new palantir account, same email address thou no certificate is synced
+  - next step = take only necessary courses 
