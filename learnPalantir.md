@@ -78,3 +78,17 @@ Current latest status =
 - review short of previous projects DONE 
 
 
+Palantir study 22 Feb 2026 -- ONTOLOGY course learning insights 
+1. The data that is used most regularly in Foundry is presented as objects 
+   1. EX = airline object, customer object ; contain info pulled from various sources 
+2. The Ontology defines the set of **object types** available. 
+   1. Each instance of Foundry has its own unique set of object types that are unique ; use case example = pharmaceuticals company, mil company 
+3. Must have DIRECT access to palantir foundry web app 
+   ![alt text](image.png) 
+
+Latest progress = daftar foundry pake main email DONE 
+
+
+
+
+
