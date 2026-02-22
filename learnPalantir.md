@@ -2,11 +2,11 @@ Learn Palantir main markdown notes page
 main chat resource = chatgpt and perplexity
 
 ###  Last updated on 12 Feb Thursday 2026 
+   ## on progress update 22 Feb
 
 Target today = 
    - finish perp review regarding palantir chat#1 
      - rev key terms DONE 
-
 
 
 Palantir course main link = https://accounts.skilljar.com/accounts/profile/3nutzhbug1pbu?d=3nutzhbug1pbu&next=%2Fpage%2Fcourse-catalog
@@ -64,16 +64,17 @@ Other projects
    1. Bridges ontology design, analytics, and AIP
    2. ontology, pipeline, aip integration, quiver analysis, risk scoring, workshop app, alerts 
 
-Next projected courses =
+Next PROJECTED courses =
 1. Deep Dive: Creating Your First Ontology
    1. to be used in maintanance-tracking project 
    2. Key topics: Object modeling, link types, action definitions, ontology manager interface, relationship cardinality
 2. Deep Dive: Building Your First Application
-   1. done after ontology design, used to translate into UI interface 
+   1. done AFTER ontology design, used to translate into UI interface 
    2. Key topics: Workshop structure (core vs. basic), variables and widgets, layout design, integration with ontology objects, action invocation, operational dashboards
 
 Current latest status = 
 - created a new palantir account, same email address thou NO certificate is synced
-  - next step = take only necessary courses 
+  - next step = take only necessary courses -- which is the ontology course
+- review short of previous projects DONE 
 
 
