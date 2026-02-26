@@ -9,7 +9,8 @@ Target today =
      - rev key terms DONE 
 
 
-Palantir course main link = https://accounts.skilljar.com/accounts/profile/3nutzhbug1pbu?d=3nutzhbug1pbu&next=%2Fpage%2Fcourse-catalog
+Palantir course main link = 
+   https://accounts.skilljar.com/accounts/profile/3nutzhbug1pbu?d=3nutzhbug1pbu&next=%2Fpage%2Fcourse-catalog
 
 Total courses taken = 
 1. Course 1: Deep Dive - Building Your First PIPELINE
@@ -85,6 +86,21 @@ Palantir study 22 Feb 2026 -- ONTOLOGY course learning insights
    1. Each instance of Foundry has its own unique set of object types that are unique ; use case example = pharmaceuticals company, mil company 
 3. Must have DIRECT access to palantir foundry web app 
    ![alt text](image.png) 
+   setup DONE 
+   install workspace from marketplace DONE 
+4. Exercise one -- simulate as employee of airline company
+   - ![alt text](image-1.png)
+   - ontology maps all the variables in a tree structure 
+5. object explorer = used for object searches and for basic exploration and analysis across sets of objects.
+   - Company operation with obj exp = may contain visualization too 
+     - we can find various info abt the object = 
+       - Overview 
+       - Properties 
+       - Aircraft fleet 
+       - Routes 
+   - check routes with obj exp = 
+
+
 
 Latest progress = daftar foundry pake main email DONE 
 
