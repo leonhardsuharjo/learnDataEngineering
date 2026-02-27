@@ -79,7 +79,7 @@ Current latest status =
 - review short of previous projects DONE 
 
 #######################################################################################################################################
-Palantir study 22 Feb 2026 -- ONTOLOGY course learning insights 
+Palantir study last upd 27 Feb 2026 -- ONTOLOGY course learning insights 
 
 Medium article idea = Making my first ontology with Palantir foundry 
 Subtitle = Role of ontology in data engineering 
@@ -132,18 +132,90 @@ Subtitle = Role of ontology in data engineering
     - steps 
       1. open ontology manager, use flight alerts as datasource 
       2. set properties,, namely the '**primary** key' and '**title**'
-         1. PK = a unique identifier that is consistent for the life of that object; unique and never null 
+         1. PRIMARY KEY = a unique identifier that is consistent for the life of that object; unique and never null 
             1. random ID generator shouldnt be used for PK because, if the pipeline is ever rerun, all of your object IDs will change
-         2. Title = user-friendly and HUMAN-READABLE name of the object in search results and in most Foundry applications.
+         2. TITLE = user-friendly and HUMAN-READABLE name of the object in search results and in most Foundry applications.
       3. ![alt text](image-5.png)
       4. mapping data source to object type
          1. datasource is typically a dataset, but it could also be restricted view, virtual table, etc.
          2. Column = object property like 'First Name'; Row = object instance like individual 
-         3. 
+      5. ACTIONS = controlled way to create, edit, and/or delete objects
+    - **overall model**
+      1. Customer Dataset belonging to Customer Object 
+      2. Column = object property (example = 'First Name') 
+      3. Row = object instance
+    - **object storage** = the next stage after saving the object, it will undergo a process where if Foundry encounters any issues—such as non-unique primary keys—you’ll be able to get to detailed job details and error messages from here.
+       - ![alt text](image-7.png)
+
+12. Creating a LINK TYPE = used to navigate from alert to corresponding object -- uses key terms that doesnt only exist in foundry 
+    - ![alt text](image-8.png)
+    - **object FK** = a foreign key property in one object type contains values that appear as a PRIMARY key value in another object type.
+    - cardinality = indicates how many entities might be involved on the two sides of that relationship.
+      - example = one to many
+      - modelling over time may differ than present context modelling 
+      - one flight may have more than one flight alerts / delays 
+
+13. Creating an ACTION type = given an alert, an operation will be done in response, and it will be done in an organized steps called workflow -- which is done in the FOUNDRY == Actions provide a controlled way to update objects
+    1.  Change edit permissions, then make a new action type 
+    2.  use the previously made flight alert object 
+    3.  Action FORM = every action invoked, a common input form will collect the necessary input from a user.
+        1.  ename input fields, assign default values, hide fields, set root cause value 
+    4.  'Submission criteria' = control to specify who can invoke the action at al
+    5.  Rules, Side-effects, & Functions = example: modify object rule 
+   
+14. Executing action = 
+    1.  use object explorer to open an alert and assess its properties 
+        1.  ![alt text](image-9.png)
+        2.  ![alt text](image-10.png)
+    2.  make a sample root cause
+   
+15. Conclusion list of possible workflow operation of a flight company team, given delay alert of a flight ID, that is given to the operations team = 
+      Assign an incoming Flight Alert to a given Flight Operations operator
+      Forward the alert to the local Flight Maintenance team for processing
+      Reassign the flight crew
+      Queue for passenger rebooking
+      Update the gate assignment
+      Reschedule this aircraft’s next flight
+      Swap aircraft for this aircraft’s next scheduled flight
+      Make as resolved
+
+   - information needed for that kind of operation/workflow
+      Flight crew status and availability
+      Plane availability for swaps
+      Passenger counts and destinations to inform tradeoffs between plane swaps and rebooking
+   
+   Ontology make a digital copy of a organization workflow 
+
+[Grand course conclusion -- exact wording copas] 
+1. why the Ontology is valuable.
+   It makes data easier to use.
+   It structures data into a vocabulary that is reusable across workflows and across the organization.
+   The Ontology provides well-defined actions that can enforce constraints and make the output of regular decisions immediately to others within the platform.
+1. correlation with AI 
+   Ontology allows you to integrate AI into daily operations.
+   Ontology can provide clean and usable inputs to AI like how to deal with alerts 
+      Ontology structures these concepts in real-world terms that an LLM are already familiar with.
+   Ontology provides a destination for AI outputs,, AI recommendations (or AI's end-product) will be stored inside the ontology object itself 
+      easier to then collect feedback on the final decisions
+2. Tools used in the course
+   Object Explorer - For object searches and for basic exploration and analysis across sets of objects
+   Data Lineage - For exploring data pipelines and understanding how they lead to the Ontology
+   Ontology Manager - For building the Ontology itself
+3. Other tools 
+   Object Views - The Airline and Airport objects you explored in this tutorial had custom object views
+   Quiver - For powerful point-and-click analysis of object sets and dashboarding
+   Workshop - For building operational applications from point-and-click widgets
+   Ontology SDK (OSDK) - Building custom third-party applications that treat the Ontology as a backend
+
+Latest progress = official course done 
+
+Personal reflection = 
+This is the first palantir foundry course i took with true dedication and so far its been great, i finished the course and sort of get an understanding of what the ontology does and even what data engineering does in general. The good thing is that the Palantir Foundry is turns out to be a very solid data engineering platform with a ton of features that can be really handy if i really know how to use each buttons to its max potential. the cons of it is that any project i will do from here will probably and most likely need to actually directly use this foundry platform and i need to further learn how to utilize it that means. good news is that it converge with knowledge from my uni database class
 
 
+Course-specific reflection
+about the course what I find valuable is that the course gives me the chance to apply the actual knowledge of foundry by opening the foundry itself and applying my skill in it, the guide and step by step is also very detail. the only downside is that a few of the guides are no longer relevant, for example some buttons are missing bcs maybe by the time the tutorial is wrote it was still in the previous app version. also there should be a test or evaluation or more real world projects involving the foundry itself to train my skills further, anything else is good.
 
-Latest progress = daftar foundry pake main email DONE 
 
 
 
