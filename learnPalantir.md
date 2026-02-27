@@ -78,11 +78,15 @@ Current latest status =
   - next step = take only necessary courses -- which is the ontology course
 - review short of previous projects DONE 
 
-
+#######################################################################################################################################
 Palantir study 22 Feb 2026 -- ONTOLOGY course learning insights 
+
+Medium article idea = Making my first ontology with Palantir foundry 
+Subtitle = Role of ontology in data engineering 
+
 1. The data that is used most regularly in Foundry is presented as objects 
    1. EX = airline object, customer object ; contain info pulled from various sources 
-2. The Ontology defines the set of **object types** available. 
+2. The **ONTOLOGY** defines the set of **object types** available. 
    1. Each instance of Foundry has its own unique set of object types that are unique ; use case example = pharmaceuticals company, mil company 
 3. Must have DIRECT access to palantir foundry web app 
    ![alt text](image.png) 
@@ -98,7 +102,42 @@ Palantir study 22 Feb 2026 -- ONTOLOGY course learning insights
        - Properties 
        - Aircraft fleet 
        - Routes 
-   - check routes with obj exp = 
+   - check routes with obj exp = open with EXPLORER
+      exploration lets you explore a set of objects through a variety of charts. Each chart is derived from one of the properties of that object type
+      - can directly show percentage, exclution, and etc. 
+    - can perform SQL operations without writing a single query 
+      - what airport is located farthest west, which runway have at least 7k feet length
+    - ![alt text](image-2.png)
+
+6. Quiver = for more complex object-based analysis and visualization 
+   1. richer numerical analysis, building visualizations, deriving timeseries, comparing multiple object sets, or building interactive reporting dashboards
+7. Workshop = for regular operational workflow
+
+8. Data Lineage = provide a bird's-eye view of how datasets, object types, and certain resources are connected to each other in Foundry
+   - dataLin also allow seeing state of each dataset and take actions like rebuilding them
+  
+9. data engineers make pipeline made to clean data brought from external system,, given multiple people work on a data and progress may overlap
+
+10. Making a pipeline with data Lineage 
+   - ![alt text](image-3.png)
+   - we can group nodes, put them into a graph structure, and automatically manage the layout 
+   - ![alt text](image-4.png)
+   - we can filter nodes by their origin repository, as they will have different colors depending on the rules/filter set 
+
+11. exercise = build your own version of the Flight Alert OBJECT type -- make our own OBJECT type 
+    - an object to represent the situation whenever a Flight is delayed, cancelled, or diverted. 
+    - Each Flight Alert can then be responded to by Fresh Air’s Flight Operations department -- thus creating a WORKFLOW
+    - use **Ontology Manager** == section that enables you to build and maintain your organization’s Ontology. 
+      - you can also define object and link types from Pipeline Builder, but OntologyManag has more options 
+    - steps 
+      1. open ontology manager, use flight alerts as datasource 
+      2. set properties,, namely the 'primary key' and 'title'
+         1. PK = a unique identifier that is consistent for the life of that object
+      3. ![alt text](image-5.png)
+      4. mapping data source to object type
+         1. datasource is typically a dataset, but it could also be restricted view, virtual table, etc.
+         2. Column = object property like 'First Name'; Row = object instance like individual 
+         3. 
 
 
 
