@@ -131,8 +131,10 @@ Subtitle = Role of ontology in data engineering
       - you can also define object and link types from Pipeline Builder, but OntologyManag has more options 
     - steps 
       1. open ontology manager, use flight alerts as datasource 
-      2. set properties,, namely the 'primary key' and 'title'
-         1. PK = a unique identifier that is consistent for the life of that object
+      2. set properties,, namely the '**primary** key' and '**title**'
+         1. PK = a unique identifier that is consistent for the life of that object; unique and never null 
+            1. random ID generator shouldnt be used for PK because, if the pipeline is ever rerun, all of your object IDs will change
+         2. Title = user-friendly and HUMAN-READABLE name of the object in search results and in most Foundry applications.
       3. ![alt text](image-5.png)
       4. mapping data source to object type
          1. datasource is typically a dataset, but it could also be restricted view, virtual table, etc.
