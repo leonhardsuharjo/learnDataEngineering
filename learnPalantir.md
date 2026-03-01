@@ -8,7 +8,6 @@ Target today =
    - finish perp review regarding palantir chat#1 
      - rev key terms DONE 
 
-
 Palantir course main link = 
    https://accounts.skilljar.com/accounts/profile/3nutzhbug1pbu?d=3nutzhbug1pbu&next=%2Fpage%2Fcourse-catalog
 
@@ -107,7 +106,7 @@ Subtitle = Role of ontology in data engineering
       - can directly show percentage, exclution, and etc. 
     - can perform SQL operations without writing a single query 
       - what airport is located farthest west, which runway have at least 7k feet length
-    - ![alt text](image-2.png)
+    - ![alt text](imag2.png)
 
 6. Quiver = for more complex object-based analysis and visualization 
    1. richer numerical analysis, building visualizations, deriving timeseries, comparing multiple object sets, or building interactive reporting dashboards
@@ -216,7 +215,7 @@ This is the first palantir foundry course i took with true dedication and so far
 Course-specific reflection
 about the course what I find valuable is that the course gives me the chance to apply the actual knowledge of foundry by opening the foundry itself and applying my skill in it, the guide and step by step is also very detail. the only downside is that a few of the guides are no longer relevant, for example some buttons are missing bcs maybe by the time the tutorial is wrote it was still in the previous app version. also there should be a test or evaluation or more real world projects involving the foundry itself to train my skills further, anything else is good.
 
-
+Newest update = medium article posting and writing DONE,, progress in google docs
 
 
 
